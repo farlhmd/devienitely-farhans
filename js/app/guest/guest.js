@@ -329,7 +329,8 @@ export const guest = (() => {
         const img = image.init();
         const aud = audio.init();
         const lib = loaderLibs();
-        const token = document.body.getAttribute('data-key');
+        // teruntuk teman teman ku yang baik hati, sebelum menelusuri lebih jauh lagi, harap jangan iseng ya :), terutama mas noval, mas boris, greg
+        const token = '6099799b7218e8f57c42c646459de43fbfcc3e492a01417aba';
         const params = new URLSearchParams(window.location.search);
 
         window.addEventListener('resize', util.debounce(slide));
