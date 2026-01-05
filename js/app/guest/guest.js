@@ -256,7 +256,7 @@ export const guest = (() => {
         const data = new URLSearchParams({
             action: 'TEMPLATE',
             text: 'The Wedding of Devie and Farhan',
-            dates: `${formatDate('2025-01-18 08:30')}/${formatDate('2025-01-18 11:00')}`,
+            dates: `${formatDate('2025-01-18 10:00')}/${formatDate('2025-01-18 13:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
             location: 'Balai Prajurit Ardhya Loka, Jl. Jatayu No.4 Blok A, RT.5/RW.11, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610',
             ctz: config.get('tz'),
