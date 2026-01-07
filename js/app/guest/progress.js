@@ -62,7 +62,7 @@ export const progress = (() => {
         if (valid) {
             valid = false;
             bar.style.backgroundColor = 'red';
-            info.innerText = `Error loading ${type} ${showInformation()}`;
+            info.innerText = `Error loading ${type} ${showInformation()}, refresh the page to try again.`;
             document.dispatchEvent(new Event('undangan.progress.invalid'));
         }
     };
